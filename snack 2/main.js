@@ -11,7 +11,8 @@ const numberUser = Number(prompt("Inserisci un numero"));
 for (let i = 0; i < numberUser; i++) {
     const array = [];
     for (let i = 0; i < 10; i++) {
-        array.push = (Math.floor(Math.random() * 100) + 1); 
+        let numberRandom = Math.floor(Math.random() * 100) + 1;
+        array.push(numberRandom) 
     }
     console.log(array);
 }
