@@ -10,4 +10,6 @@ while(arrayOne.length <= 50){
     Number(prompt("give me a number"));
     arrayOne.push(number);
 }
+
+
 console.log(arrayOne);
